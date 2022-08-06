@@ -12,6 +12,7 @@ public class TestExcepciones {
         catch (Exception exception){
             System.out.println("Ocurrio un error");
             exception.printStackTrace(System.out);
+            System.out.println("Estoy en la rama de hotfix");
         }
         
        // int x = 19;
